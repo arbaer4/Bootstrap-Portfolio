@@ -13,9 +13,20 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.navbar-brand a {
+    color: #ffffff
+}
+.navbar-light{
+    color: #ffffff
+}
+
 nav a:hover {
     background-color: #ddd;
     color: black;
+  }
+  nav a:visited {
+    
+    color: #ddd;
   }
 
 .main-section {
@@ -26,6 +37,7 @@ margin-top: 50px;
 border: 2px solid #dddddd;
 background: #ffffff;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+overflow: auto;
 }
 
 .main-section h1 {
@@ -54,6 +66,47 @@ margin-right: 20px;
 
 #AboutMeImage {
     /* box-sizing: border-box; */
+}
+
+.box {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .box p {
+      background: #4aaaa5;
+      margin-top: 200px;
+      padding: 10px;
+  }
+  
+  #box1 {
+      background: gray;
+  }
+  
+  #box2 {
+      background: gray;
+  }
+  
+  #box3 {
+      background: gray;
+  }
+  
+  #box4 {
+      background: gray;
+  }
+  
+  #box5 {
+      background: gray;
+  }
+
+form {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer {
