@@ -1,16 +1,178 @@
+
+header {
+    background: #ffffff;
+}
+
 .navbar-brand {
     float: left;
     width: 200px;
-    height: 75px;
+    height: 100%;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     line-height: 60px;
     background: #4aaaa5;
     color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar-nav a {
-    float: left; 
-    color: green;
+.navbar-brand a {
+    color: #ffffff
 }
+/* .navbar-light{
+    color: #ffffff
+} */
+
+nav a:hover {
+    background-color: #4aaaa5;
+    color: black;
+  }
+
+  nav a:visited {
+    color: #ddd;
+  }
+
+.main-section {
+padding-top: 20px;
+/* margin-right: 20px; */
+/* margin-left: 20px; */
+margin-top: 50px;
+border: 2px solid #dddddd;
+background: #ffffff;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+overflow: auto;
+margin-bottom: 100px;
+}
+
+.main-section h1 {
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.main-section hr {
+    padding-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-section p {
+    /* margin-right: 20px; */
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 20px; */
+}
+
+.rounded {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#AboutMeImage {
+    /* box-sizing: border-box; */
+}
+
+.box {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .box p {
+      background: #4aaaa5;
+      margin-top: 200px;
+      padding: 10px;
+  }
+  
+  #box1 {
+      background: gray;
+  }
+  
+  #box2 {
+      background: gray;
+  }
+  
+  #box3 {
+      background: gray;
+  }
+  
+  #box4 {
+      background: gray;
+  }
+  
+  #box5 {
+      background: gray;
+  }
+
+form {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    position: bottom fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #666666;
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+    /* margin-top: 100px; */
+}
+
+@media screen and (max-width: 768px) {
+   .box {
+       /* float: left; */
+       height: 150px;
+       width: 150px;
+   }
+
+   .box p {
+       margin-top: 80px;
+       font-size: 13px;
+       text-align: center;
+   }
+}
+
+@media screen and (max-width: 640px) {
+ 
+      
+      .navbar-brand {
+        float: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        /* transform: translate (-50%, -50%); */
+        width: 100%;
+        height: 60px;
+        }
+
+        .navbar-nav {
+            text-align: center;
+        }
+        .navbar-nav ul {
+            float: none;
+            position: relative;
+            /* display: fixed; */
+            top: 75px;
+            margin-bottom: 15px;
+            right: 30px;
+            justify-content: center;
+            display: flex;
+            display: inline-block;
+            /* display: inline-block; */
+        }
+
+        .nav-link {
+            display: inline-block;
+        }
+        
+}
+   
